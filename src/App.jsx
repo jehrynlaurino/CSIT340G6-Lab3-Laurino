@@ -39,22 +39,20 @@ const Footer = ({ name, course, section }) => {
 const App = () => {
   const course = 'CSIT340 section G6'
 
-  const part1 = {
-    name: 'Information Management 2',
-    exercises: 3
-  }
-
-  const part2 = {
-    name: 'Systems Integration',
-    exercises: 3
-  }
-
-  const part3 = {
-    name: 'Data Analytics',
-    exercises: 3
-  }
-
-  const parts = [part1, part2, part3]
+  const parts = [
+    {
+      name: 'Information Management 2',
+      exercises: 3
+    },
+    {
+      name: 'Systems Integration',
+      exercises: 3
+    },
+    {
+      name: 'Data Analytics',
+      exercises: 3
+    }
+  ]
 
   return (
     <div>
